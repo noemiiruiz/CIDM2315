@@ -1,5 +1,4 @@
-﻿namespace FPP;
-
+namespace FPP;
 using System;
 using System.Collections;
 class Order 
@@ -10,18 +9,18 @@ class Order
         string username,password;
         int choice;
         
-        string[] entree={"BLT Sandwich","Chicken Strips","Shrimp Alfredo","Beef Burger"};
-        float[] entreePrice={5.99f,8.99f,9.99f,6.99f};
-        string[] drink={"Iced Tea", "Soda","Lemonade","Coffee"};
-        float[] drinkPrice={2.99f,1.99f,2.99f,3.99f};
-        string[] side={"Potato Fries","Salad","Fruit Cup","Potato Chips"};
-        float[] sidePrice={3.99f,4.99f,9.99f,2.99f};
+        string[] entree = {"BLT Sandwich","Chicken Strips","Shrimp Alfredo","Beef Burger"};
+        float[] entreePrice = {5.99f,8.99f,9.99f,6.99f};
+        string[] drink = {"Iced Tea", "Soda","Lemonade","Coffee"};
+        float[] drinkPrice = {2.99f,1.99f,2.99f,3.99f};
+        string[] side = {"Potato Fries","Salad","Fruit Cup","Potato Chips"};
+        float[] sidePrice = {3.99f,4.99f,9.99f,2.99f};
         
         int index, menu;
         float total;
         
         string[] orderItem = new string[3];
-        float[] orderPrice= new float[3];
+        float[] orderPrice = new float[3];
         ArrayList customer = new ArrayList();
         ArrayList price = new ArrayList();
 
@@ -48,8 +47,8 @@ class Order
         
         do{
 
-            index=0;
-            total=0;
+            index = 0;
+            total = 0;
         
             Console.WriteLine("**************************");
             Console.WriteLine("Please select");
